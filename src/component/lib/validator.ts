@@ -1,3 +1,4 @@
+import ErrorHandler from './error-handler';
 export interface IValidator {
     isValid(component: string): boolean
 }
